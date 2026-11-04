@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "databricksHost": { "value": "adb-xxxxxxxxxxxxxxxx.xx.azuredatabricks.net" },
+    "databricksWarehouseId": { "value": "REPLACE_ME" },
+    "databricksToken": { "value": "REPLACE_ME" },
+    "ucCatalog": { "value": "main" },
+    "fabricWorkspaceId": { "value": "REPLACE_ME" },
+    "fabricTenantId": { "value": "REPLACE_ME" },
+    "fabricClientId": { "value": "REPLACE_ME" },
+    "fabricClientSecret": { "value": "REPLACE_ME" },
+    "autoRemediate": { "value": false }
+  }
+}
